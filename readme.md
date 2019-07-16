@@ -7,7 +7,19 @@ The way this works is to only fetch a new job if the queue is not paused.
 
 ## Installation
 
-`composer require centagon/laravel-pauseable-queue`
+As per today, we did not yet add the repository to packagist, you can add our cvs by adding it to the composer repositories:
+
+```
+"repositories": [
+        { "type": "git", "url": "https://github.com/centagon/laravel-pauseable-queue", "reference":"dev" }
+    ],
+```
+
+The add our package:
+
+```
+composer require centagon/laravel-pauseable-queue:^1.0.1
+```
 
 
 In your `config/app.php`
