@@ -1,0 +1,19 @@
+{
+    "name": "centagon/laravel-pauseable-queue",
+    "description": "Pauseable Queue worker for laravel",
+    "keywords": ["queue", "laravel", "pause", "pauseable"],
+    "license": "MIT",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+           "Centagon\\PauseableQueue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+            ]
+        }
+    }
+}
